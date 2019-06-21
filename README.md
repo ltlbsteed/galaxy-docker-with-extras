@@ -1,2 +1,5 @@
 # galaxy-docker-with-xvfb
-Adds the apt package xvfb and it's dependencies to the standard base docker image that Meteor's Galaxy service provides.
+Builds on the standard base docker image that Meteor's Galaxy service provides.
+
+- Adds the apt package xvfb and it's dependencies
+- Adds dependencies required for puppeteer (headless chrome)
